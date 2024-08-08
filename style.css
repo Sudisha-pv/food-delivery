@@ -68,9 +68,125 @@ font-size: xx-large;
   margin-top: 280px;
 
 }
-footer{
-  background-color: white;
-}
+
 #paraa{
   font-family: "Timmana", sans-serif;
 }
+.pro{
+  margin-top: 60px;
+}
+
+.bike{
+  margin-top: 50px;
+  margin-right: 100px;
+}
+.home{
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.phn{
+  margin-top: 20px;
+}
+#anu1{
+  margin-top: 60px;
+}
+#anu2{
+  margin-top: 20px;
+}
+#anu3{
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.prod{
+  background-color: #e58448 ;
+}
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-section h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-section {
+      margin: 20px 0;
+  }
+}
+ .but0{
+  background-color: #fcf8f6;
+ }
+ .para{
+  font-family: "Timmana", sans-serif;
+  color:white;
+ } 
+ .button4{
+  background-color: #e58448;
+ }
+ .ammu{
+  margin-top: 180px;
+  font-family: "Lobster", sans-serif;
+
+
+ }
+ #it{
+  font-family: "Anton", sans-serif;
+  color: #e58448;
+ }
